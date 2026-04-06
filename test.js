@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 // ❌ 1. Hardcoded secret (Security Issue)
-const API_KEY = "12345-SECRET-KEY";
+const API_KEY = "12345-SECRET-KEeY";
 
 // ❌ 2. No input validation (XSS risk)
 app.get("/search", (req, res) => {
