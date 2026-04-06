@@ -1,6 +1,6 @@
 {
   "name": "vulnerable-app",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "dependencies": {
     "express": "4.16.0",
     "lodash": "4.17.15"
